@@ -33,6 +33,8 @@ const Home = () => {
 		NodeJS.Timeout | undefined
 	>();
 
+	console.log("searchTimeOut", searchTimeOut);
+
 	useEffect(() => {
 		const fetchPosts = async () => {
 			setLoading(true);
