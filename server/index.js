@@ -24,7 +24,9 @@ const startServer = async () => {
 		connectDB();
 
 		app.listen(8080, () =>
-			console.log("server has started on port http://localhost:8080")
+			console.log(
+				"server has started on port https://reactjs-dall-e-app.onrender.com"
+			)
 		);
 	} catch (error) {
 		console.log("server error--- ", error);
